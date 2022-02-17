@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo{
+    @apply px-4 py-1 text-3xl text-violet-500
+}
+.nav-li{
+    @apply px-4 py-2 text-xl text-violet-500 hover:scale-125 hover:text-violet-700 focus-within:font-semibold focus-within:text-fuchsia-500 items-center
+}
